@@ -1,0 +1,32 @@
+
+div#hover{
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+div.login{
+    text-align: center;
+}
+
+body{
+    text-align: center;
+    background-color: lightgray;
+}
+
+div#login{
+    margin: auto;
+    border: black;
+    border-style: double;
+}
+ul li{
+    list-style: none;
+}
+
+header{
+    background-color: grey;
+}
