@@ -25,3 +25,9 @@ function check(password){
         alert("wrong password!")
     }
 }
+function findvolume(){
+    let radius = document.getElementById("radius").value
+    let volume = (4/3) * Math.PI * Math.pow(radius, 3)
+    let radiustext = document.getElementById("radiustext")
+    radiustext.innerHTML = "The volume of the sphere is : " + volume.toFixed(3)
+}
